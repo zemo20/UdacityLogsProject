@@ -18,7 +18,7 @@ most popular authors, and finding the day that has the most failures in requests
 4-open a terminal at the cloned project location and run this command to install the ubuntu vm : vagrant up
 
 
-5-ssh vagrant to login to your ubuntu machine
+5-run this command to login to your machine : vagrant ssh
 
 
 6-run these commands to access the vagrant folder which is shared between
