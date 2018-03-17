@@ -30,19 +30,17 @@ most popular authors, and finding the day that has the most failures in requests
 -cd vagrant
 
 
-7-Run this command to seed the database : psql -d news -f newsdata.sql
+7-Run this command to seed the database : psql -d news -f newsdata.sql ;
 
 
-8-install pyscopg2 package By running these commands :
+8-install pip by running these commands : 
+
+sudo apt-get install python-pip python-dev build-essential 
+sudo pip install --upgrade pip 
+sudo pip install --upgrade virtualenv 
 
 
--sudo apt-get update
+9-install pyscopg2 package By running this command : sudo pip install psycopg2-binary
 
 
--sudo apt-get install libpq-dev python-dev
-
-
--sudo pip install psycopg2
-
-
-9-run this command to get the final results of the queries: python connector.py
+10-run this command to get the final results of the queries: python connector.py
