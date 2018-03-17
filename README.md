@@ -21,7 +21,13 @@ most popular authors, and finding the day that has the most failures in requests
 5-run this command to login to your machine : vagrant ssh
 
 
-6-run these commands to access the vagrant folder which is shared between
+6-run these commands to access the vagrant folder which is shared between your computer and your vm
+
+-cd ..
+
+-cd ..
+
+-cd vagrant
 
 
 7-Run this command to seed the database : psql -d news -f newsdata.sql
