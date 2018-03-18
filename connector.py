@@ -8,13 +8,13 @@ DB_NAME = 'news'
 
 def print_all():
 
-    print ("articles:")
+    print("articles:")
     print_articles()
-    print ("\n\n")
-    print ('authors:')
+    print("\n\n")
+    print('authors:')
     print_authors()
-    print ("\n\n")
-    print ("errors :")
+    print("\n\n")
+    print("errors :")
     print_errors()
 
 
@@ -64,5 +64,6 @@ def print_errors():
     for error in errors:
         print(" \"%s\" -- %s%s" % (error[0], error[1], '%'))
     db.close()
+
 
 print_all()
