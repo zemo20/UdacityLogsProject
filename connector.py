@@ -1,4 +1,4 @@
-# "Database code" for the DB Forum.
+#!/usr/bin/env python3
 
 import datetime
 import psycopg2
@@ -53,7 +53,7 @@ def print_errors():
     c = db.cursor()
     c.execute("select day, perc from (select day, round((sum(requests)/"
               "(select count(*) from log where substring(cast(log.time as"
-              " text), 0, 11) = day) * 100), 1) as perc from (select "
+              " text), 0, 11) = day) * 100), 2) as perc from (select "
               "substring(cast(log.time as text), 0, 11) as "
               "day, count(*) as requests "
               "from log where status = '404 NOT FOUND' group by day ) as"
