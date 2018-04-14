@@ -1,0 +1,17 @@
+articles:
+ "That political candidate is a real jerk, according to a rival." -- 342102 Views
+ "Rumors that bears love berries were confirmed by bear, who also proclaims love of salmon and honey." -- 256365 Views
+ "All bad things have gone away, according to a poll of good people Thursday." -- 171762 Views
+
+
+
+authors:
+ "Ursula La Multa" -- 512805 Views
+ "Rudolf von Treppenwitz" -- 427781 Views
+ "Anonymous Contributor" -- 171762 Views
+ "Markoff Chaney" -- 85387 Views
+
+
+
+errors :
+ "2016-07-17" -- 2.26%
